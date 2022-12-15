@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1671107633 source:c:\users\nikodem\downloads\gameofships\control_functions.c
+	"control_functions.h"
+
+1671108064 c:\users\nikodem\downloads\gameofships\control_functions.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<pthread.h>
+	<windows.h>
+
+1671121620 source:c:\users\nikodem\downloads\gameofships\drawing_boards.c
+	"drawing_boards.h"
+	"menu.h"
+
+1671114795 c:\users\nikodem\downloads\gameofships\drawing_boards.h
+	"control_functions.h"
+	"list.h"
+
+1671046003 c:\users\nikodem\downloads\gameofships\list.h
+	<stdbool.h>
+	<string.h>
+
+1671056998 c:\users\nikodem\downloads\gameofships\menu.h
+	"control_functions.h"
+
+1671114936 source:c:\users\nikodem\downloads\gameofships\history.c
+	"history.h"
+
+1671114936 c:\users\nikodem\downloads\gameofships\history.h
+	"control_functions.h"
+	"list.h"
+	<dirent.h>
+
+1671119364 source:c:\users\nikodem\downloads\gameofships\list.c
+	"list.h"
+
+1671123095 source:c:\users\nikodem\downloads\gameofships\main.c
+	<time.h>
+	"control_functions.h"
+	"menu.h"
+	"drawing_boards.h"
+	"history.h"
+
+1671115559 source:c:\users\nikodem\downloads\gameofships\menu.c
+	"menu.h"
+
+1671109661 source:c:\users\nikodem\downloads\gameofships\resources.rc
+
