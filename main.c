@@ -322,7 +322,7 @@ int main()
         gstate=start;
         pthread_t thread_id;
 
-        change_size(&win_data,800,900);
+        change_size(&win_data,800,950);
         pthread_create(&thread_id, NULL,size_control, &win_data);
 
         mode = main_menu()-48;
